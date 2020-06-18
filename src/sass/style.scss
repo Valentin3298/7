@@ -1,5 +1,13 @@
-@import "fonts";
-h1{
-    color: royalblue;
-    font-family: "Museo Sans 300 Light";
+@import "base/fonts";
+@import "base/mixins";
+@import "base/variables";
+@import "blocks/promo";
+@import "blocks/header";
+@import "blocks/buttons";
+* {
+  font-family: "Museo Sans";
+}
+.container {
+  margin: 0 auto;
+  max-width: 950px;
 }
