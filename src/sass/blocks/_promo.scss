@@ -46,9 +46,11 @@
     color: #ffffff;
     font-size: 16px;
     font-weight: 500;
-    a{
+    &--underline {
+      color: #ffffff;
       text-transform: uppercase;
       text-decoration: underline;
     }
   }
 }
+
